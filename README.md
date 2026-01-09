@@ -17,3 +17,7 @@ A modern, lightweight Chrome extension that automatically transforms plain-text 
 
 ## 🎨 Design
 The options page is designed with a modern dark-mode aesthetic using the HSL color `54E4C3` for accents.
+
+## 🔒 Privacy
+This extension does not collect, store, or transmit any user data. All processing happens locally on your machine. 
+You can read the full [Privacy Policy here](https://gist.github.com/desertdognl).
