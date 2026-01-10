@@ -21,3 +21,5 @@ The options page is designed with a modern dark-mode aesthetic using the HSL col
 ## 🔒 Privacy
 This extension does not collect, store, or transmit any user data. All processing happens locally on your machine. 
 You can read the full [Privacy Policy here](https://gist.github.com/desertdognl).
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/desertdog)
