@@ -20,9 +20,14 @@
       border-radius: 16px;
       box-shadow: 0 10px 30px rgba(84, 228, 195, 0.2);
     }
-    h1 { color: #54E4C3; font-weight: 600; margin-top: 0; }
+
+    /* header with icon */
+    .header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .logo { width: 56px; height: 56px; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); }
+
+    h1 { color: #54E4C3; font-weight: 600; margin: 0; font-size: 1.6em; }
     
-    .main-desc { color: #bbb; line-height: 1.6; margin-bottom: 30px; border-bottom: 1px solid #222; pb: 20px; padding-bottom: 20px;}
+    .main-desc { color: #bbb; line-height: 1.6; margin-bottom: 30px; border-bottom: 1px solid #222; padding-bottom: 20px;}
     
     .setting-group { margin-bottom: 30px; }
     .setting-header { color: #54E4C3; font-weight: bold; font-size: 1.4em; display: block; margin-bottom: 5px; }
@@ -76,7 +81,10 @@
 </head>
 <body>
   <div class="container">
-    <h1>Auto Linker Pro</h1>
+    <div class="header">
+      <img src="icon48.png" alt="Auto Linker" class="logo">
+      <h1>Auto Linker Pro</h1>
+    </div>
     <p class="main-desc">
       Auto Linker Pro automatically detects plain-text URLs on the pages you choose and converts them into clickable, underlined blue links. This helps you navigate faster without having to copy and paste addresses manually.
     </p>
